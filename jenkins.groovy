@@ -22,10 +22,10 @@ pipeline {
                 withSonarQubeEnv('SonarHome')
                 {
                     bat script: """
-                    sonar-scanner -D"sonar.projectKey=python" \
+                    sonar-scanner -D"sonar.projectKey=python1" \
                     -D"sonar.sources=." \
                     -D"sonar.host.url=http://localhost:9000" \
-                    -D"sonar.login="sqp_a3341758da24ce578a453cc882da961cf095e41f"
+                    -D"sonar.login="sqp_93e1e1a90dc4343d66fdb59ec17ccc2620196227"
                     """
                 }
             }
