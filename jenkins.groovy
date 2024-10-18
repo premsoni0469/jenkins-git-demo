@@ -25,7 +25,7 @@ pipeline {
                     sonar-scanner -D"sonar.projectKey=python1" \
                     -D"sonar.sources=." \
                     -D"sonar.host.url=http://localhost:9000" \
-                    -D"sonar.login="sqp_93e1e1a90dc4343d66fdb59ec17ccc2620196227"
+                    -D"sonar.login="sqp_d8e28544cf72adcc7413d7ae6957cc5966aef5a9"
                     """
                 }
             }
