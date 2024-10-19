@@ -11,6 +11,7 @@ pipeline {
         stage('Run Java Program') {
             steps {
                 // Run the Java program from the JenkinsPipeline folder
+                // -cp = class path: used to execute the class file for the compiled java file
                 bat 'java -cp C:\\JenkinsPipeline Test2'
             }
         }
