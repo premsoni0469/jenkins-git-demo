@@ -1,0 +1,8 @@
+Running local file on Docker
+1. Python:
+docker run -it -v C:/JenkinsPipeline:/usr/src/myapp/ -w /usr/src/myapp/ python python <filename>.py
+
+2. Java
+docker run -it -v C:/JenkinsPipeline:/usr/src/myapp/ -w /usr/src/myapp/ openjdk:8 javac <filename>.java
+docker run -it -v C:/JenkinsPipeline:/usr/src/myapp/ -w /usr/src/myapp/ openjdk:8 java <filename>
+
